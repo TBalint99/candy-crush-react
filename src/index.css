@@ -1,5 +1,7 @@
 .app {
   display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 30px;
 }
 
@@ -13,4 +15,8 @@
 .game img {
   width: 70px;
   height: 70px;
+}
+
+.score-board {
+  font-size: 1rem;
 }
